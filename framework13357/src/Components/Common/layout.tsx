@@ -9,10 +9,11 @@ const Wrapper = styled.div`
     height:100vh;
 `
 const Content = styled.div`
-    background: ${colorStack.cherry};
+    background: ${colorStack.pink};
     width:1024px;
-    height:40%;
+    height:60%;
     margin:0 auto;
+    margin-top:50px;
     padding: 0 1rem;
 `
 
