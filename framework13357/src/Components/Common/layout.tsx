@@ -1,8 +1,9 @@
-import {FC} from "react";
+import {FC, useEffect} from "react";
 import React from 'react';
 import styled from 'styled-components';
 import {TopMenu} from './topMenu';
 import {colorStack} from '../../StyledHelpers/colors';
+
 
 const Wrapper = styled.div`
     width:100%;
@@ -22,6 +23,8 @@ interface IProps{
 }
 
 export const Layout: FC<IProps> = props => {
+
+    
     return (
         <Wrapper>
             <TopMenu />
