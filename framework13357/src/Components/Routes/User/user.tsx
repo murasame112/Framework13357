@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export const User: FC = () => {
 
-    const [users, setUsers] = useState<[][]>([]);
+    const [users, setUsers] = useState<{name: string }[]>([]);
     
     useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -13,13 +13,8 @@ export const User: FC = () => {
             console.log(usersArr);
             setUsers(usersArr);
         });
+// https://dev.to/coderjay06/how-to-build-a-search-bar-4673
 
-
-        
-        // .then(usersArr => {
-        //     console.log(usersArr);
-        //     setUsers(usersArr);
-        // });
     }, []);
     return(
         <>

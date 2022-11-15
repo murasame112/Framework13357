@@ -53,7 +53,7 @@ export const TopMenu: FC = () => {
                 <SingleLink><Link to="/">Home </Link></SingleLink>
                 <SingleLink><Link to="posts">Posts</Link></SingleLink>
                 <SingleLink><Link to="feed">Feed</Link></SingleLink>
-                <SingleLink><Link to="user">User</Link></SingleLink>
+                <SingleLink><Link to="user">Users</Link></SingleLink>
                 <SingleLink><Link to="login">Login </Link></SingleLink>
             </Wrap>
             
